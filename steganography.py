@@ -158,7 +158,7 @@ if __name__ == "__main__":
                     required=False, const=True, default=None,
                     help="path to the image that shall be hidden")
     ap.add_argument("-o", "--output", type=str, nargs='?',
-                    required=False, const=True, default="./output.png",
+                    required=False, const=True, default="/home/alice/Desktop/output.png",
                     help="path to the output image, defaults to ./output.png")
     args = vars(ap.parse_args())
 
